@@ -13,18 +13,9 @@ enum colorScheme {
 	case hsb
 }
 
-//No internet :( . I don't know how to find the length of a string.
-func teddylen(_ str:String) -> Int {
-	var finallen = 0
-	for _ in str {
-		finallen += 1
-	}
-	return finallen
-}
-
 func flipper(stringToBeFlipped str:String) -> String{
 	var newstr = str
-	while teddylen(newstr)<4 {
+	while newstr.count<4 {
 		newstr = "0"+newstr
 	}
 	return String(newstr.suffix(2)+newstr.prefix(2))
