@@ -8,7 +8,7 @@
 
 import Foundation
 
-class complex: CustomStringConvertible {
+struct complex: CustomStringConvertible {
 	var real:Double
 	var imag:Double
 	
