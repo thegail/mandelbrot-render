@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9FAD1C4A2205F9BD0059028E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C492205F9BD0059028E /* main.swift */; };
+		9FAD1C5122061BF50059028E /* hexconvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C5022061BF50059028E /* hexconvert.swift */; };
+		9FAD1C5322061C620059028E /* filewrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C5222061C620059028E /* filewrite.swift */; };
+		9FAD1C5522061C7F0059028E /* root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C5422061C7F0059028E /* root.swift */; };
+		9FAD1C5722061CBC0059028E /* bitmapcodegen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C5622061CBC0059028E /* bitmapcodegen.swift */; };
+		9FF2635422076224004EA890 /* hueconvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2635322076224004EA890 /* hueconvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F5F714A22D6ACAD00F9E471 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FAD1C462205F9BC0059028E /* mandelbrot render */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mandelbrot render"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAD1C492205F9BD0059028E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9FAD1C5022061BF50059028E /* hexconvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexconvert.swift; sourceTree = "<group>"; };
+		9FAD1C5222061C620059028E /* filewrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filewrite.swift; sourceTree = "<group>"; };
+		9FAD1C5422061C7F0059028E /* root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = root.swift; sourceTree = "<group>"; };
+		9FAD1C5622061CBC0059028E /* bitmapcodegen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitmapcodegen.swift; sourceTree = "<group>"; };
+		9FF2635322076224004EA890 /* hueconvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hueconvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				9FAD1C492205F9BD0059028E /* main.swift */,
+				9F5F714A22D6ACAD00F9E471 /* README.md */,
+				9FAD1C5622061CBC0059028E /* bitmapcodegen.swift */,
+				9FAD1C5422061C7F0059028E /* root.swift */,
+				9FAD1C5022061BF50059028E /* hexconvert.swift */,
+				9FF2635322076224004EA890 /* hueconvert.swift */,
+				9FAD1C5222061C620059028E /* filewrite.swift */,
 			);
 			path = "mandelbrot render";
 			sourceTree = "<group>";
@@ -119,7 +136,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF2635422076224004EA890 /* hueconvert.swift in Sources */,
+				9FAD1C5322061C620059028E /* filewrite.swift in Sources */,
+				9FAD1C5522061C7F0059028E /* root.swift in Sources */,
 				9FAD1C4A2205F9BD0059028E /* main.swift in Sources */,
+				9FAD1C5122061BF50059028E /* hexconvert.swift in Sources */,
+				9FAD1C5722061CBC0059028E /* bitmapcodegen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
