@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 processFlags()
 
 exit(0)
