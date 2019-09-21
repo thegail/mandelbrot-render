@@ -8,16 +8,21 @@
 
 import Foundation
 
-func writeFile(filePath path:String, fileContents cont:Data, printProgress prints:Bool) {
-	if let dir = FileManager.default.urls(for: .desktopDirectory, in: .userDomainMask).first {
-		let fileURL = dir.appendingPathComponent(path)
-		do {
-			try cont.write(to: fileURL)
-			if prints {print("Finished write")}
-		} catch let caterr{
-			print("err:FileWriting:\(caterr)")
-		}
+func fullPath(path: String) -> String {
+	if Array(path)[0] == "/" {
+		return path
 	} else {
-		print("err:noexec")
+		return FileManager.default.currentDirectoryPath+"/"+path
+	}
+}
+
+func writeFile(filePath path:String, fileContents cont:Data, printProgress prints:Bool) {
+	let fileURL = URL(fileURLWithPath: path)
+	if prints {print("Starting write to \(fileURL)")}
+	do {
+		try cont.write(to: fileURL)
+		if prints {print("Finished write")}
+	} catch let caterr{
+		print("err:FileWriting:\(caterr)")
 	}
 }
