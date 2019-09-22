@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F2AC12D2338001D0016D610 /* complex in Frameworks */ = {isa = PBXBuildFile; productRef = 9F2AC12C2338001D0016D610 /* complex */; };
+		9F600FB72338136A00228C2A /* complex in Frameworks */ = {isa = PBXBuildFile; productRef = 9F600FB62338136A00228C2A /* complex */; };
 		9F77015923359B46009F3481 /* finalgen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77015823359B46009F3481 /* finalgen.swift */; };
 		9F9F91552331C77400F8F5EB /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F91542331C77400F8F5EB /* UI.swift */; };
 		9FAD1C4A2205F9BD0059028E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD1C492205F9BD0059028E /* main.swift */; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2AC12D2338001D0016D610 /* complex in Frameworks */,
+				9F600FB72338136A00228C2A /* complex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			);
 			name = "mandelbrot render";
 			packageProductDependencies = (
-				9F2AC12C2338001D0016D610 /* complex */,
+				9F600FB62338136A00228C2A /* complex */,
 			);
 			productName = "mandelbrot render";
 			productReference = 9FAD1C462205F9BC0059028E /* mandelbrot render */;
@@ -134,7 +134,7 @@
 			);
 			mainGroup = 9FAD1C3D2205F9BC0059028E;
 			packageReferences = (
-				9F2AC12B2338001D0016D610 /* XCRemoteSwiftPackageReference "complex" */,
+				9F600FB52338136A00228C2A /* XCRemoteSwiftPackageReference "complex" */,
 			);
 			productRefGroup = 9FAD1C472205F9BC0059028E /* Products */;
 			projectDirPath = "";
@@ -321,7 +321,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9F2AC12B2338001D0016D610 /* XCRemoteSwiftPackageReference "complex" */ = {
+		9F600FB52338136A00228C2A /* XCRemoteSwiftPackageReference "complex" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/thegail/complex.git";
 			requirement = {
@@ -332,9 +332,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9F2AC12C2338001D0016D610 /* complex */ = {
+		9F600FB62338136A00228C2A /* complex */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9F2AC12B2338001D0016D610 /* XCRemoteSwiftPackageReference "complex" */;
+			package = 9F600FB52338136A00228C2A /* XCRemoteSwiftPackageReference "complex" */;
 			productName = complex;
 		};
 /* End XCSwiftPackageProductDependency section */
