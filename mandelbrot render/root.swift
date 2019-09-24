@@ -10,7 +10,7 @@ import Foundation
 import complex
 
 func mandelbrot(RealComponent x:Double,ImaginaryComponent y:Double,MaxIterations i:Int, MultibrotStage stage:Int) -> Int {
-	let c = complex.Complex(real: x,imag: y)
+	let c = Complex(real: x,imag: y)
 	var z = c
 	var pasti = 0
 	for n in 0...i {
