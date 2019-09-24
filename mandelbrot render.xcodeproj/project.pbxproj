@@ -325,8 +325,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/thegail/complex.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
