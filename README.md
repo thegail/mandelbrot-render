@@ -9,7 +9,6 @@ An open source command line tool to render the Mandelbrot Set, as well as its va
 
 I hope you find this project useful and fun!
 
-	Thanks,
-	thegail
+	-thegail
 	
 	@thegail | github.com/thegail
